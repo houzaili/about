@@ -1,131 +1,914 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Zaili Hou, Ph.D. — Materials scientist specializing in polymers, nanocomposites, functional coatings, and sustainable packaging.">
-  <meta name="author" content="Zaili Hou">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>Zaili Hou, Ph.D. | Personal Website</title>
-  <link rel="stylesheet" href="stylesheet.css">
-  <link rel="icon" type="image/jpg" href="images/template/Avatar.jpg">
+  <meta name="author" content="Zaili Hou">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/jpeg" href="images/template/Avatar.jpg">
   <style>
-    :root { --accent: #8a581d; --muted: #62666c; }
-    html { scroll-behavior: smooth; }
-    body { max-width: 880px; margin: 0 auto; padding: 18px 24px 65px; line-height: 1.65; color: #252525; font-family: Arial, Helvetica, sans-serif; }
-    a { color: #946322; text-decoration: none; } a:hover { text-decoration: underline; }
-    .topnav { display:flex; flex-wrap:wrap; gap: 10px 18px; padding: 12px 0 26px; border-bottom: 1px solid #eee; font-size: 14px; }
-    .hero { display: flex; align-items: center; gap: 32px; padding: 30px 0 20px; }
-    .hero-text { flex: 1; min-width: 0; }
-    .hero h1 { font-size: 34px; line-height: 1.2; margin: 0 0 12px; }
-    .hero-photo { width: 270px; height: auto; flex: 0 0 270px; object-fit: contain; border-radius: 10px; }
-    .links { margin-top: 14px; display:flex; flex-wrap:wrap; gap: 8px 12px; font-size: 14px; }
-    section { margin: 28px 0 36px; } h2 { font-size: 23px; border-bottom: 1px solid #ddd; padding-bottom: 6px; margin-bottom: 16px; }
-    h3 { font-size: 17px; margin: 16px 0 5px; }
-    .muted { color: var(--muted); } .entry { margin-bottom: 18px; }
-    .entry-heading { display:flex; justify-content:space-between; flex-wrap:wrap; gap: 5px 12px; }
-    .date { color: var(--muted); font-size: 14px; white-space: nowrap; }
-    .entry p { margin: 4px 0 6px; }
-    .publication { margin: 0 0 15px; padding: 0 0 13px; border-bottom: 1px solid #f0f0f0; }
-    .publication .citation { font-size: 14px; line-height: 1.6; }
-    .publication .citation strong { color: #171717; }
-    .pubyear { font-size: 18px; margin-top: 25px; color: var(--accent); }
-    .pill { display:inline-block; font-size: 12px; border: 1px solid #d9c7a6; border-radius: 14px; padding: 2px 10px; margin: 3px 4px 3px 0; }
-    ul { padding-left: 22px; } li { margin-bottom: 6px; }
-    footer { border-top: 1px solid #ddd; padding-top: 18px; margin-top: 40px; color: #777; font-size: 13px; }
-    @media (max-width: 580px) { body { padding: 12px 16px 40px; } .hero { flex-direction: column-reverse; align-items: flex-start; gap: 15px; } .hero h1 { font-size: 29px; } .hero-photo { width: 120px; height: 120px; flex-basis: 120px; } }
+    body, * {
+      cursor: url('images/icon/cursor.png'), auto;
+    }
+    a, a * {
+      cursor: url('images/icon/cursor-pointer.png'), pointer !important;
+    }
   </style>
 </head>
 <body>
-<nav class="topnav" aria-label="Main navigation">
-  <a href="#about">About</a><a href="#experience">Experience</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#leadership">Leadership</a>
-</nav>
-<header class="hero" id="about">
-  <div class="hero-text">
-    <h1>Zaili Hou, Ph.D.</h1>
-    <p><strong>Research Scientist | Polymer Science &amp; Materials Engineering</strong></p>
-    <p>I am a research scientist at <strong>World Centric</strong>, developing bio-based, plastic-free packaging materials and water-resistant barrier coatings. I received my Ph.D. in Polymer Science from the University of Connecticut in 2023, advised by Dr. Luyi Sun and Dr. Montgomery T. Shaw.</p>
-    <p>My research spans functional polymers, nanocomposites, sustainable packaging, responsive hydrogels, and multifunctional sensing materials. I have authored or coauthored 27 peer-reviewed research papers.</p>
-    <div class="links">
-      <a href="mailto:zaili.hou@gmail.com">Email</a>
-      <a href="https://scholar.google.com/citations?user=BuQioR8AAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-      <a href="https://www.linkedin.com/in/zailihou" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-    </div>
-  </div>
-  <!-- Replace this placeholder by uploading your photo and changing src, e.g. images/profile.jpg -->
-  <img class="hero-photo" src="images/template/Avatar.jpg" alt="Placeholder profile image">
-</header>
-<main>
-<section id="experience"><h2>Professional Experience</h2>
-  <div class="entry"><div class="entry-heading"><strong>Research Scientist · World Centric</strong><span class="date">Sep 2023 – Present</span></div>
-  <ul><li>Lead development of bio-based, plastic-free packaging materials with high barrier performance for food packaging.</li>
-  <li>Develop water-resistant coatings for food containers to reduce plastic waste.</li>
-  <li>Investigate polymers, inorganic compounds, plasticizers, and processing conditions to optimize coating performance.</li>
-  <li>Evaluate polymer and material compostability to support sustainable packaging solutions.</li></ul></div>
-</section>
-<section id="research"><h2>Research Highlights</h2>
-  <div class="entry"><h3>Nature-Inspired Nanocomposite Coatings</h3><p>Developed a rotational coating approach for advanced packaging films, improving the barrier properties of PET films by approximately 70-fold. Applied design of experiments and materials characterization to optimize processing.</p></div>
-  <div class="entry"><h3>Conductive Polymer Hydrogels &amp; 3D Printing</h3><p>Developed a liquid 3D-printing method for elastic, conductive PEDOT:PSS hydrogels, and studied the effects of reduced graphene oxide and waterborne polyurethane additives.</p></div>
-  <div class="entry"><h3>Responsive Hydrogels &amp; Soft Electronics</h3><p>Designed tunable PVA hydrogel systems for deformable electroluminescent devices and responsive strain sensors.</p></div>
-  <div class="entry"><h3>Multifunctional Sensors &amp; Photodetectors</h3><p>Investigated hydrogel–semiconductor photodetectors and flexible sensors for impact energy, UV, and IR detection.</p></div>
-  <div class="entry"><h3>Hybrid Thermoelectric Materials</h3><p>Developed PVA hydrogels incorporating liquid metals and other additives, studying how composition and polymer-chain orientation influence thermoelectric performance.</p></div>
-  <h3>Selected Industrial Collaborations</h3>
-  <ul><li><strong>SI Group:</strong> Adhesive formulations, benzoxazine synthesis, and epoxy–amine reaction studies.</li>
-  <li><strong>ResMed:</strong> Surface-energy analysis of nasal-mask materials.</li>
-  <li><strong>Vestergaard:</strong> Thermal and microstructural characterization of mosquito-net materials.</li></ul>
-</section>
-<section id="publications"><h2>Publications</h2>
-  <p class="muted">27 publications listed in the supplied CV, ordered from newest to oldest. The name <strong>Zaili Hou</strong> is highlighted in each citation. For article links, see <a href="https://scholar.google.com/citations?user=BuQioR8AAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>.</p>
+  <table id="about" class="page-section" style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:55%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Zaili Hou, Ph.D.<span id="astronaut-btn" style="cursor: pointer; margin-left: 5px;" title="Copy bio">🧑‍🚀</span></name>
+              </p>
+            <p>I am a <strong>Research Scientist at World Centric</strong>, developing bio-based, plastic-free packaging materials and water-resistant barrier coatings. I received my Ph.D. in Polymer Science from the <strong>University of Connecticut</strong> in 2023, advised by Dr. Luyi Sun and Dr. Montgomery T. Shaw.</p>
+            <p>My research focuses on polymers, nanocomposites, functional coatings, sustainable packaging, and responsive hydrogels. I have authored or coauthored 27 peer-reviewed research papers.</p>
+			<div style="width: 100%; height: 1px; background: linear-gradient(to right, transparent, #ccc 20%, #ccc 80%, transparent); margin: 10px 0;"></div>
 
-<h3 class="pubyear">2025</h3>
-<div class="publication"><div class="citation"><span class="muted">1.</span> <strong>Hou, Z</strong>., Zeng, S., Zhang, L., Zhang, M. and Sun, L., 2025. Versatile hydrogel-based sensor platform for multi-modal mechanical and optical signal detection. Nano Materials Science.</div></div>
-<div class="publication"><div class="citation"><span class="muted">2.</span> Zhou, Y., LaChance, A.M., Wang, Q., Gao, Y., Zhou, J., Huang, B., Shen, K., <strong>Hou, Z</strong>., Lei, T., Wang, N. and Zuo, Z., 2025. Self-assembly of anisotropic nano-sheets to impede charge injection into polymer dielectrics. Journal of Materials Chemistry A, 13(18), pp.12926-12931.</div></div>
-<h3 class="pubyear">2024</h3>
-<div class="publication"><div class="citation"><span class="muted">3.</span> Zhang, D., Liu, J., Williams, B.L., <strong>Hou, Z</strong>., Bodin, J.N., Lofink, B.J., Santos, V.H., Becher, E.M., Shrestha, S.B., Nasir, Z. and Patel, H., 2024. Enhancing flame retardancy of flexible polyurethane foams through one-step coassembled nanocoatings. Advanced Composites and Hybrid Materials, 7(6), p.230.</div></div>
-<div class="publication"><div class="citation"><span class="muted">4.</span> <strong>Hou, Z</strong>., Chavez, S.E., LaChance, A.M., Jones, M.D., French, C.D., Walsh, A.M., Shaw, M.T. and Sun, L., 2024. Polyvinyl alcohol (PVA)/montmorillonite (MMT) nanocomposite coatings via a rotational coating method. Advanced Composites and Hybrid Materials, 7(5), p.150.</div></div>
-<div class="publication"><div class="citation"><span class="muted">5.</span> Zhang, D., Liu, J., <strong>Hou, Z</strong>., Lofink, B.J., Santos, V.H., Becher, E.M., Shrestha, S.B., Nasir, Z., Patel, H., Partyka, A. and Peng, X., 2024. Enhancing flame retardancy of polyurethane foam with montmorillonite-based nanocoatings. ES Materials and Manufacturing, 26, p.1228.</div></div>
-<div class="publication"><div class="citation"><span class="muted">6.</span> Chen, J., Tan, J., Liang, P., Wu, C., <strong>Hou, Z</strong>., Shen, K., Lei, B., Hu, C., Zhang, X., Zhuang, J. and Sun, L., 2024. Dynamic Room Temperature Phosphorescence of Silane‐Functionalized Carbon Dots Confining within Silica for Anti‐Counterfeiting Applications. Small, 20(16), p.2306323.</div></div>
-<h3 class="pubyear">2023</h3>
-<div class="publication"><div class="citation"><span class="muted">7.</span> <strong>Hou Z</strong>, Zeng S, Shen K, Healey PR, Schipper HJ, Zhang L, Zhang M, Jones MD, Sun L. Interactive deformable electroluminescent devices enabled by an adaptable hydrogel system with optical/photothermal/mechanical tunability. Materials Horizons. 2023;10(12):5931-41.</div></div>
-<h3 class="pubyear">2022</h3>
-<div class="publication"><div class="citation"><span class="muted">8.</span> Zeng S, Yang Z, <strong>Hou Z</strong>, Park C, Jones MD, Ding H, Shen K, Smith AT, Jin HX, Wang B, Jiang H. Dynamic multifunctional devices enabled by ultrathin metal nanocoatings with optical/photothermal and morphological versatility. Proceedings of the National Academy of Sciences. 2022 25; 119(4): e2118991119.</div></div>
-<div class="publication"><div class="citation"><span class="muted">9.</span> Smith AT, Shen K, <strong>Hou Z</strong>, Zeng S, Jin J, Ning C, Zhao Y, Sun L. Dual Photo‐and Mechanochromisms of Graphitic Carbon Nitride/Polyvinyl Alcohol Film. Advanced Functional Materials. 2022; 32(12): 2110285.</div></div>
-<div class="publication"><div class="citation"><span class="muted">10.</span> Ding H, <strong>Hou Z</strong>, Sun L. Tailoring the Growth of Nanosized α-Zirconium Phosphate. Inorganic Chemistry. 2022, 14; 61(4): 2057-65.</div></div>
-<div class="publication"><div class="citation"><span class="muted">11.</span> LaChance AM, <strong>Hou Z</strong>, Farooqui MM, Carr SA, Serrano JM, Odendahl CE, Hurley ME, Morrison TE, Kubachka JL, Samuels NT, Barrett AT. Polyolefin films with outstanding barrier properties based on one-step coassembled nanocoatings. Advanced Composites and Hybrid Materials. 2022; 5(2): 1067-77.</div></div>
-<div class="publication"><div class="citation"><span class="muted">12.</span> LaChance AM, <strong>Hou Z</strong>, Farooqui MM, Carr SA, Serrano JM, Odendahl CE, Hurley ME, Morrison TE, Kubachka JL, Samuels NT, Barrett AT. Doctor-Blade-Assisted Casting for Forming Thin Composite Coatings of Montmorillonite and Poly (vinyl alcohol). Industrial &amp; Engineering Chemistry Research. 2022; 4; 61(10): 3766-74.</div></div>
-<div class="publication"><div class="citation"><span class="muted">13.</span> LaChance AM, <strong>Hou Z</strong>, Farooqui MM, Samuels NT, Carr SA, Serrano JM, Odendahl CE, Hurley ME, Morrison TE, Kubachka JL, Barrett AT. Spin coating for forming thin composite coatings of montmorillonite and poly (vinyl alcohol). Industrial &amp; Engineering Chemistry Research. 2022; 8; 61(11): 4168-77.</div></div>
-<div class="publication"><div class="citation"><span class="muted">14.</span> Zeng S, <strong>Hou Z</strong>, So C, Wai H, Jang D, Lai W, Sun L, Gao Z. Simultaneously stiffening and toughening epoxy by urea treated hydroxylated halloysite nanotubes. Polymer. 2022; 21; 256: 125194.</div></div>
-<div class="publication"><div class="citation"><span class="muted">15.</span> Ren M, Wang Y, Liu J, Wu C, <strong>Hou Z</strong>, Konstantinou A, Zhou J, Nguyen H, Davis-Amendola K, Sun L, Cao Y. Enhancing corona resistance in Kapton with self-assembled two-dimensional montmorillonite nanocoatings. Materials Advances. 2022; 3(9): 3853-61.</div></div>
-<div class="publication"><div class="citation"><span class="muted">16.</span> Wu C, LaChance AM, Baferani MA, Shen K, Li Z, <strong>Hou Z</strong>, Wang N, Wang Y, Sun L, Cao Y. Scalable self-assembly interfacial engineering for high-temperature dielectric energy storage. Iscience. 2022; 15; 25(7): 104601.</div></div>
-<div class="publication"><div class="citation"><span class="muted">17.</span> Liu J, Chavez SE, Ding H, Farooqui MM, <strong>Hou Z</strong>, Lin S, D&#x27;Auria TD, Kennedy JM, LaChance AM, Sun L. Ultra-transparent nanostructured coatings via flow-induced one-step coassembly. Nano Materials Science. 2022; 1; 4(2): 97-103.</div></div>
-<h3 class="pubyear">2021</h3>
-<div class="publication"><div class="citation"><span class="muted">18.</span> Williams BL, Ding H, <strong>Hou Z</strong>, Paul PO, Lewis FA, Smith AT, Sun L. Highly efficient polyvinyl alcohol/montmorillonite flame retardant nanocoating for corrugated cardboard. Advanced Composites and Hybrid Materials. 2021; 4: 662-9.</div></div>
-<div class="publication"><div class="citation"><span class="muted">19.</span> Chavez SE, Ding H, Nam S, <strong>Hou Z</strong>, Zhang D, Sun L. One-step coassembled nanocoatings on paper for potential packaging applications. ES Materials &amp; Manufacturing. 2021; 13; 15: 72-7.</div></div>
-<div class="publication"><div class="citation"><span class="muted">20.</span> Zeng S, Liu Y, Li S, Shen K, <strong>Hou Z</strong>, Chooi AP, Smith AT, Chen Z, Sun L. Smart Laser‐Writable Micropatterns with Multiscale Photo/Moisture Reconstructible Structure. Advanced Functional Materials. 2021; 31(10): 2009481.</div></div>
-<div class="publication"><div class="citation"><span class="muted">21.</span> Zeng S, Shen K, Li S, Li R, <strong>Hou Z</strong>, Zhang X, Tait WR, Kajiwara T, Takahara A, Smith AT, Jones MD. Tailoring multistimuli responsive micropatterns activated by various mechanical modes. Advanced Functional Materials. 2021; 31(18): 2100612.</div></div>
-<div class="publication"><div class="citation"><span class="muted">22.</span> Zhang D, Williams BL, Liu J, <strong>Hou Z</strong>, Smith AT, Nam S, Nasir Z, Patel H, Partyka A, Becher EM, Lofink BJ. An environmentally-friendly sandwich-like structured nanocoating system for wash durable, flame retardant, and hydrophobic cotton fabrics. Cellulose. 2021; 28: 10277-89.</div></div>
-<div class="publication"><div class="citation"><span class="muted">23.</span> Zhang B, Liu J, Ren M, Wu C, Moran TJ, Zeng S, Chavez SE, <strong>Hou Z</strong>, Li Z, LaChance AM, Jow TR. Reviving the “Schottky” barrier for flexible polymer dielectrics with a superior 2D nanoassembly coating. Advanced Materials. 2021; 33(34): 2101374.</div></div>
-<h3 class="pubyear">2020</h3>
-<div class="publication"><div class="citation"><span class="muted">24.</span> Zeng S, Sun H, Park C, Zhang M, Zhu M, Yan M, Chov N, Li E, Smith AT, Xu G, Li S, <strong>Hou Z</strong>, Li Y, Wang B, Zhang D, Sun L. Multi-stimuli responsive chromism with tailorable mechanochromic sensitivity for versatile interactive sensing under ambient conditions. Materials Horizons. 2020; 7(1): 164-72.</div></div>
-<h3 class="pubyear">2019</h3>
-<div class="publication"><div class="citation"><span class="muted">25.</span> Zhou Y, Ding H, Smith AT, Jia X, Chen S, Liu L, Chavez SE, <strong>Hou Z</strong>, Liu J, Cheng H, Liu Q. Nanofluidic energy conversion and molecular separation through highly stable clay-based membranes. Journal of Materials Chemistry A. 2019; 11; 7(23): 14089-96.</div></div>
-<h3 class="pubyear">2018</h3>
-<div class="publication"><div class="citation"><span class="muted">26.</span> Shi A, Li H, Yin S, <strong>Hou Z</strong>, Rong J, Zhang J, Wang Y. Photocatalytic NH3 versus H2 evolution over g-C3N4/CsxWO3: O2 and methanol tipping the scale. Applied Catalysis B: Environmental. 2018; 5; 235: 197-206.</div></div>
-<div class="publication"><div class="citation"><span class="muted">27.</span> Guo P, He Q, Wang C, <strong>Hou Z</strong>, Yu B, Bu W. Intensely phosphorescent block copolymer micelles containing gold (I) complexes. Soft Matter. 2018; 14(18): 3521-7.</div></div>
-</section>
-<section id="education"><h2>Education</h2>
-  <div class="entry"><div class="entry-heading"><strong>Ph.D. in Polymer Science · University of Connecticut</strong><span class="date">Aug 2018 – Aug 2023</span></div>
-  <p>Dissertation: <em>Hybrid functional materials with multiscale architecture design</em></p><p>Advisors: Dr. Luyi Sun and Dr. Montgomery T. Shaw</p></div>
-  <div class="entry"><div class="entry-heading"><strong>B.S. in Chemistry with Honor · Lanzhou University</strong><span class="date">Aug 2014 – May 2018</span></div></div>
-</section>
-<section id="skills"><h2>Technical Expertise</h2>
-  <p><strong>Materials characterization:</strong> TGA, DSC, Instron, DMTA, XRD, SAXS, WAXS, SEM/EDS, optical microscopy, optical profilometry, TEM, rheometry, contact angle, FT-IR, ATR, UV-Vis, NMR, mass spectrometry, OTR, WVTR, GPC.</p>
-  <p><strong>Processing:</strong> Extrusion, spray/spin/dip/doctor-blade coating, 3D printing.</p>
-  <p><strong>Software:</strong> OriginPro, MestreNova, TA Analysis, JADE, ChemDraw, EndNote, Photoshop, SolidWorks.</p>
-</section>
-<section id="leadership"><h2>Leadership &amp; Service</h2>
-  <div class="entry"><div class="entry-heading"><strong>President · Society of Plastics Engineers, UConn Chapter</strong><span class="date">2021 – 2022</span></div><p>Organized industry and academic seminars, facilitated collaborations, and recruited more than 30 new members.</p></div>
-  <div class="entry"><div class="entry-heading"><strong>Laboratory Manager · The Sun Lab</strong><span class="date">2020 – Present (as listed in CV)</span></div><p>Mentored students, coordinated research meetings and laboratory safety, and supported manuscript preparation and review responses.</p></div>
-</section>
-</main>
-<footer><p>© Zaili Hou · <a href="mailto:zaili.hou@gmail.com">Contact</a> · Last updated October 2026</p></footer>
-</body></html>
+              <p class="contact-links">
+                <span class="contact-line">
+                <a href="mailto:zaili.hou@gmail.com" id="email-copy" class="email-link" title="Click to copy email">
+                  <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                    <path d="m3 7 9 6 9-6"></path>
+                  </svg>
+                  Email: <span class="contact-sub">zaili.hou@gmail.com</span>
+                </a> &nbsp/&nbsp
+                <a href="CV.pdf" title="Curriculum vitae (upload CV.pdf to repository root)">
+                  <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"></path>
+                    <path d="M14 2v6h6"></path>
+                    <path d="M8 13h8"></path>
+                    <path d="M8 17h5"></path>
+                  </svg>
+                  CV
+                </a> &nbsp/&nbsp
+				<a href="https://www.linkedin.com/in/zailihou" title="LinkedIn profile">
+                  <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M18.9 2.5h3.4l-7.4 8.5 8.7 11.5h-6.8l-5.3-7-6.1 7H2l7.9-9L1.6 2.5h7l4.8 6.4 5.5-6.4Zm-1.2 18h1.9L7.6 4.4h-2l12.1 16.1Z"></path>
+                  </svg>
+                  LinkedIn
+                </a> &nbsp/&nbsp
+				<a href="https://scholar.google.com/citations?user=BuQioR8AAAAJ" title="Google Scholar profile">
+                  <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="4" y="4" width="16" height="16" rx="4"></rect>
+                    <path d="M8 9h8"></path>
+                    <path d="M8 13h8"></path>
+                    <path d="M8 17h5"></path>
+                  </svg>
+                  Scholar
+                </a>
+                </span>
+                <span class="contact-line">
+                <a href="https://scholar.google.com/citations?user=BuQioR8AAAAJ" title="Google Scholar profile">
+                  <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 3 1.5 9 12 15 22.5 9 12 3Z"></path>
+                    <path d="M5 12.1v4.2c0 1.2 3.1 3.2 7 3.2s7-2 7-3.2v-4.2l-7 4-7-4Z"></path>
+                  </svg>
+                  Google Scholar
+                </a>
+                &nbsp/&nbsp
+                <a href="https://github.com/houzaili" title="GitHub profile">
+                  <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 .5C5.7.5.6 5.6.6 11.9c0 5 3.3 9.3 7.9 10.8.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 .1.5 2.7 3.2 1.9.1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.6.1-3.1 0 0 1-.3 3.2 1.2.9-.3 1.9-.4 2.9-.4s2 .1 2.9.4c2.2-1.5 3.2-1.2 3.2-1.2.6 1.5.2 2.8.1 3.1.8.9 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.8C23.4 5.6 18.3.5 12 .5Z"></path>
+                  </svg>
+                  Github
+                </a>
+                </span>
+			  </p>
+            </td>
+            <td style="padding:2.5%;width:45%;max-width:45%">
+              <img style="width:100%;max-width:100%;height:auto;object-fit:contain;border-radius:8px;" alt="Zaili Hou profile photo" src="images/template/Avatar.jpg">
+            </td>
+          </tr>
+        </tbody></table>
+
+			<table id="news" class="page-section" style="width:96%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+	          <tr>
+	              <heading>News</heading>
+	            <br>
+	            <td style="padding:0px;width:100%;vertical-align:middle">
+              <p class="news-first-entry"><li class="news-entry"><span class="news-date-badge">2025</span> Our work on a <span class="news-highlight">versatile hydrogel-based sensor platform</span> appeared in <em>Nano Materials Science</em>.</li></p>
+              <p><li class="news-entry"><span class="news-date-badge">2024</span> Our research on <span class="news-highlight">PVA/montmorillonite nanocomposite coatings</span> appeared in <em>Advanced Composites and Hybrid Materials</em>.</li></p>
+              <p><li class="news-entry"><span class="news-date-badge">Sep. 2023</span> Joined <span class="news-highlight">World Centric</span> as a Research Scientist.</li></p>
+              <p><li class="news-entry"><span class="news-date-badge">Aug. 2023</span> Completed my Ph.D. in Polymer Science at the University of Connecticut.</li></p>
+            </td>
+          </tr>
+        </tbody></table>
+        
+		<table id="publications" class="publications-table page-section" style="width:100%;border:0px;border-spacing:0 16px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <heading>Publications</heading>
+    <br>
+   <p>Selected research areas can be filtered below. All 27 publications are listed from the supplied CV.</p>
+   <p>See my <a href="https://scholar.google.com/citations?user=BuQioR8AAAAJ">Google Scholar</a> for article links and updates.</p>
+          
+          <!-- Research Interests Tag Filter -->
+          <style>
+            .tag-filter {
+              display: flex;
+              flex-wrap: wrap;
+              gap: 8px;
+              margin: 16px auto 0;
+              justify-content: center;
+            }
+            .tag-btn {
+              padding: 5px 14px;
+              border-radius: 20px;
+              border: 1px solid rgba(17, 17, 17, 0.18);
+              background: rgba(251, 165, 36, 0.06);
+              color: #6e3519;
+              font-size: 13px;
+              cursor: pointer;
+              transition: all 0.2s;
+            }
+            .tag-btn:hover {
+              border-color: rgba(17, 17, 17, 0.36);
+              background: rgba(251, 165, 36, 0.1);
+              color: #6e3519;
+            }
+            .tag-btn.active {
+              background: #ad7020;
+              color: #fff;
+              border-color: rgba(17, 17, 17, 0.62);
+              box-shadow: 0 2px 8px rgba(173, 112, 32, 0.22);
+            }
+            .tag-count {
+              display: inline-block;
+              background: rgba(0,0,0,0.15);
+              color: inherit;
+              font-size: 11px;
+              font-weight: bold;
+              width: 18px;
+              height: 18px;
+              line-height: 18px;
+              border-radius: 50%;
+              text-align: center;
+              margin-left: 5px;
+              vertical-align: middle;
+            }
+            .tag-btn.active .tag-count {
+              background: rgba(255, 255, 255, 0.22);
+              color: #fff;
+            }
+            .tag-btn:not(.active) .tag-count {
+              background: rgba(251, 165, 36, 0.14);
+              color: #6e3519;
+            }
+            .publications-table tr[data-tags] > td {
+              border-top: 1px solid rgba(0, 0, 0, 0.14);
+              border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+              background: #fff;
+            }
+            .publications-table tr[data-tags] > td:first-child {
+              border-left: 1px solid rgba(0, 0, 0, 0.14);
+              border-radius: 8px 0 0 8px;
+            }
+            .publications-table tr[data-tags] > td:last-child {
+              border-right: 1px solid rgba(0, 0, 0, 0.14);
+              border-radius: 0 8px 8px 0;
+            }
+            .publications-table tr[data-tags][style*="lightyellow"] > td {
+              background: lightyellow;
+            }
+
+            /* 自定义复制提示框样式 */
+            .toast-message {
+              position: fixed;
+              top: var(--toast-y, 20px);
+              left: var(--toast-x, 50%);
+              transform: translate(-50%, -120%);
+              background: rgba(255, 255, 255, 0.8);
+              color: #333;
+              padding: 8px 16px;
+              border-radius: 20px;
+              box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+              z-index: 2000;
+              opacity: 0;
+              transition: all 0.3s ease;
+              pointer-events: none;
+              border: 1px solid rgba(0,0,0,0.05);
+            }
+            .toast-message.show {
+              opacity: 1;
+              transform: translate(-50%, -135%);
+            }
+          </style>
+          
+          <div class="tag-filter" id="tagFilter">
+            <button class="tag-btn active" data-tag="all">All</button>
+	            <button class="tag-btn" data-tag="coatings">Coatings</button>
+	            <button class="tag-btn" data-tag="hydrogels">Hydrogels</button>
+	            <button class="tag-btn" data-tag="sensors">Sensors</button>
+	            <button class="tag-btn" data-tag="composites">Composites</button>
+            <button class="tag-btn" data-tag="other">Other</button>
+          </div>
+
+          <script>
+            // Inject counts into tag buttons (after full DOM is parsed)
+            document.addEventListener('DOMContentLoaded', function() {
+              const rows = document.querySelectorAll('tr[data-tags]');
+              const total = rows.length;
+              document.querySelectorAll('.tag-btn').forEach(function(btn) {
+                const tag = btn.dataset.tag;
+                const count = tag === 'all' ? total : Array.from(rows).filter(r => r.dataset.tags.split(',').includes(tag)).length;
+                btn.insertAdjacentHTML('beforeend', '<span class="tag-count">' + count + '</span>');
+              });
+            });
+
+            // Tag filter
+            document.getElementById('tagFilter').addEventListener('click', function(e) {
+              const btn = e.target.closest('.tag-btn');
+              if (!btn) return;
+              document.querySelectorAll('.tag-btn').forEach(b => b.classList.remove('active'));
+              btn.classList.add('active');
+              const tag = btn.dataset.tag;
+              document.querySelectorAll('tr[data-tags]').forEach(function(row) {
+                row.style.display = (tag === 'all' || row.dataset.tags.split(',').includes(tag)) ? '' : 'none';
+              });
+            });
+
+            function copyText(text, event) {
+              const showToast = () => {
+                const toast = document.getElementById('toast');
+                if (event) {
+                  const margin = 12;
+                  const x = Math.min(Math.max(event.clientX, margin), window.innerWidth - margin);
+                  const y = Math.min(Math.max(event.clientY, 48), window.innerHeight - margin);
+                  toast.style.setProperty('--toast-x', x + 'px');
+                  toast.style.setProperty('--toast-y', y + 'px');
+                }
+                toast.classList.add('show');
+                setTimeout(() => {
+                  toast.classList.remove('show');
+                }, 2000);
+              };
+
+              navigator.clipboard.writeText(text).then(function() {
+                showToast();
+              }).catch(function(err) {
+                console.error('无法复制: ', err);
+                // 降级方案
+                const textArea = document.createElement("textarea");
+                textArea.value = text;
+                document.body.appendChild(textArea);
+                textArea.select();
+                try {
+                  document.execCommand('copy');
+                  showToast();
+                } catch (err) {
+                  console.error('降级复制失败: ', err);
+                }
+                document.body.removeChild(textArea);
+              });
+            }
+
+            // 复制简介功能
+            document.getElementById('astronaut-btn').addEventListener('click', function(e) {
+              const text = "Zaili Hou is a research scientist at World Centric working on bio-based packaging, polymer coatings, nanocomposites, and functional materials. Zaili earned a Ph.D. in Polymer Science from the University of Connecticut in 2023.";
+              copyText(text, e);
+            });
+
+            document.getElementById('email-copy').addEventListener('click', function(e) {
+              e.preventDefault();
+              copyText('zaili.hou@gmail.com', e);
+            });
+            
+          </script>
+
+          <tr data-tags="hydrogels,sensors">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2025</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>and Sun, L., 2025</papertitle>
+              <br>
+              <strong>Hou, Z</strong>., Zeng, S., Zhang, L., Zhang, M. and Sun, L., 2025. Versatile hydrogel-based sensor platform for multi-modal mechanical and optical signal detection. Nano Materials Science.
+              <br><span style="color:#8a581d">2025</span>
+            </td>
+          </tr>
+          <tr data-tags="composites">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2025</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>and Zuo, Z., 2025</papertitle>
+              <br>
+              Zhou, Y., LaChance, A.M., Wang, Q., Gao, Y., Zhou, J., Huang, B., Shen, K., <strong>Hou, Z</strong>., Lei, T., Wang, N. and Zuo, Z., 2025. Self-assembly of anisotropic nano-sheets to impede charge injection into polymer dielectrics. Journal of Materials Chemistry A, 13(18), pp.12926-12931.
+              <br><span style="color:#8a581d">2025</span>
+            </td>
+          </tr>
+          <tr data-tags="coatings,composites">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2024</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>and Patel, H., 2024</papertitle>
+              <br>
+              Zhang, D., Liu, J., Williams, B.L., <strong>Hou, Z</strong>., Bodin, J.N., Lofink, B.J., Santos, V.H., Becher, E.M., Shrestha, S.B., Nasir, Z. and Patel, H., 2024. Enhancing flame retardancy of flexible polyurethane foams through one-step coassembled nanocoatings. Advanced Composites and Hybrid Materials, 7(6), p.230.
+              <br><span style="color:#8a581d">2024</span>
+            </td>
+          </tr>
+          <tr data-tags="coatings,composites">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2024</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>and Sun, L., 2024</papertitle>
+              <br>
+              <strong>Hou, Z</strong>., Chavez, S.E., LaChance, A.M., Jones, M.D., French, C.D., Walsh, A.M., Shaw, M.T. and Sun, L., 2024. Polyvinyl alcohol (PVA)/montmorillonite (MMT) nanocomposite coatings via a rotational coating method. Advanced Composites and Hybrid Materials, 7(5), p.150.
+              <br><span style="color:#8a581d">2024</span>
+            </td>
+          </tr>
+          <tr data-tags="coatings,composites">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2024</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>and Peng, X., 2024</papertitle>
+              <br>
+              Zhang, D., Liu, J., <strong>Hou, Z</strong>., Lofink, B.J., Santos, V.H., Becher, E.M., Shrestha, S.B., Nasir, Z., Patel, H., Partyka, A. and Peng, X., 2024. Enhancing flame retardancy of polyurethane foam with montmorillonite-based nanocoatings. ES Materials and Manufacturing, 26, p.1228.
+              <br><span style="color:#8a581d">2024</span>
+            </td>
+          </tr>
+          <tr data-tags="other">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2024</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>and Sun, L., 2024</papertitle>
+              <br>
+              Chen, J., Tan, J., Liang, P., Wu, C., <strong>Hou, Z</strong>., Shen, K., Lei, B., Hu, C., Zhang, X., Zhuang, J. and Sun, L., 2024. Dynamic Room Temperature Phosphorescence of Silane‐Functionalized Carbon Dots Confining within Silica for Anti‐Counterfeiting Applications. Small, 20(16), p.2306323.
+              <br><span style="color:#8a581d">2024</span>
+            </td>
+          </tr>
+          <tr data-tags="hydrogels,sensors">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2023</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>Interactive deformable electroluminescent devices enabled by an adaptable hydrogel system with optical/photothermal/mechanical tunability</papertitle>
+              <br>
+              <strong>Hou Z</strong>, Zeng S, Shen K, Healey PR, Schipper HJ, Zhang L, Zhang M, Jones MD, Sun L. Interactive deformable electroluminescent devices enabled by an adaptable hydrogel system with optical/photothermal/mechanical tunability. Materials Horizons. 2023;10(12):5931-41.
+              <br><span style="color:#8a581d">2023</span>
+            </td>
+          </tr>
+          <tr data-tags="coatings,composites">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2022</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>Dynamic multifunctional devices enabled by ultrathin metal nanocoatings with optical/photothermal and morphological versatility</papertitle>
+              <br>
+              Zeng S, Yang Z, <strong>Hou Z</strong>, Park C, Jones MD, Ding H, Shen K, Smith AT, Jin HX, Wang B, Jiang H. Dynamic multifunctional devices enabled by ultrathin metal nanocoatings with optical/photothermal and morphological versatility. Proceedings of the National Academy of Sciences. 2022 25; 119(4): e2118991119.
+              <br><span style="color:#8a581d">2022</span>
+            </td>
+          </tr>
+          <tr data-tags="hydrogels,sensors">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2022</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>Dual Photo‐and Mechanochromisms of Graphitic Carbon Nitride/Polyvinyl Alcohol Film</papertitle>
+              <br>
+              Smith AT, Shen K, <strong>Hou Z</strong>, Zeng S, Jin J, Ning C, Zhao Y, Sun L. Dual Photo‐and Mechanochromisms of Graphitic Carbon Nitride/Polyvinyl Alcohol Film. Advanced Functional Materials. 2022; 32(12): 2110285.
+              <br><span style="color:#8a581d">2022</span>
+            </td>
+          </tr>
+          <tr data-tags="other">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2022</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>Tailoring the Growth of Nanosized α-Zirconium Phosphate</papertitle>
+              <br>
+              Ding H, <strong>Hou Z</strong>, Sun L. Tailoring the Growth of Nanosized α-Zirconium Phosphate. Inorganic Chemistry. 2022, 14; 61(4): 2057-65.
+              <br><span style="color:#8a581d">2022</span>
+            </td>
+          </tr>
+          <tr data-tags="coatings,composites">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2022</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>Polyolefin films with outstanding barrier properties based on one-step coassembled nanocoatings</papertitle>
+              <br>
+              LaChance AM, <strong>Hou Z</strong>, Farooqui MM, Carr SA, Serrano JM, Odendahl CE, Hurley ME, Morrison TE, Kubachka JL, Samuels NT, Barrett AT. Polyolefin films with outstanding barrier properties based on one-step coassembled nanocoatings. Advanced Composites and Hybrid Materials. 2022; 5(2): 1067-77.
+              <br><span style="color:#8a581d">2022</span>
+            </td>
+          </tr>
+          <tr data-tags="coatings,composites">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2022</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>Doctor-Blade-Assisted Casting for Forming Thin Composite Coatings of Montmorillonite and Poly (vinyl alcohol)</papertitle>
+              <br>
+              LaChance AM, <strong>Hou Z</strong>, Farooqui MM, Carr SA, Serrano JM, Odendahl CE, Hurley ME, Morrison TE, Kubachka JL, Samuels NT, Barrett AT. Doctor-Blade-Assisted Casting for Forming Thin Composite Coatings of Montmorillonite and Poly (vinyl alcohol). Industrial &amp; Engineering Chemistry Research. 2022; 4; 61(10): 3766-74.
+              <br><span style="color:#8a581d">2022</span>
+            </td>
+          </tr>
+          <tr data-tags="coatings,composites">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2022</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>Spin coating for forming thin composite coatings of montmorillonite and poly (vinyl alcohol)</papertitle>
+              <br>
+              LaChance AM, <strong>Hou Z</strong>, Farooqui MM, Samuels NT, Carr SA, Serrano JM, Odendahl CE, Hurley ME, Morrison TE, Kubachka JL, Barrett AT. Spin coating for forming thin composite coatings of montmorillonite and poly (vinyl alcohol). Industrial &amp; Engineering Chemistry Research. 2022; 8; 61(11): 4168-77.
+              <br><span style="color:#8a581d">2022</span>
+            </td>
+          </tr>
+          <tr data-tags="composites">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2022</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>Simultaneously stiffening and toughening epoxy by urea treated hydroxylated halloysite nanotubes</papertitle>
+              <br>
+              Zeng S, <strong>Hou Z</strong>, So C, Wai H, Jang D, Lai W, Sun L, Gao Z. Simultaneously stiffening and toughening epoxy by urea treated hydroxylated halloysite nanotubes. Polymer. 2022; 21; 256: 125194.
+              <br><span style="color:#8a581d">2022</span>
+            </td>
+          </tr>
+          <tr data-tags="coatings,composites">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2022</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>Enhancing corona resistance in Kapton with self-assembled two-dimensional montmorillonite nanocoatings</papertitle>
+              <br>
+              Ren M, Wang Y, Liu J, Wu C, <strong>Hou Z</strong>, Konstantinou A, Zhou J, Nguyen H, Davis-Amendola K, Sun L, Cao Y. Enhancing corona resistance in Kapton with self-assembled two-dimensional montmorillonite nanocoatings. Materials Advances. 2022; 3(9): 3853-61.
+              <br><span style="color:#8a581d">2022</span>
+            </td>
+          </tr>
+          <tr data-tags="other">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2022</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>Scalable self-assembly interfacial engineering for high-temperature dielectric energy storage</papertitle>
+              <br>
+              Wu C, LaChance AM, Baferani MA, Shen K, Li Z, <strong>Hou Z</strong>, Wang N, Wang Y, Sun L, Cao Y. Scalable self-assembly interfacial engineering for high-temperature dielectric energy storage. Iscience. 2022; 15; 25(7): 104601.
+              <br><span style="color:#8a581d">2022</span>
+            </td>
+          </tr>
+          <tr data-tags="coatings,composites">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2022</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>Ultra-transparent nanostructured coatings via flow-induced one-step coassembly</papertitle>
+              <br>
+              Liu J, Chavez SE, Ding H, Farooqui MM, <strong>Hou Z</strong>, Lin S, D'Auria TD, Kennedy JM, LaChance AM, Sun L. Ultra-transparent nanostructured coatings via flow-induced one-step coassembly. Nano Materials Science. 2022; 1; 4(2): 97-103.
+              <br><span style="color:#8a581d">2022</span>
+            </td>
+          </tr>
+          <tr data-tags="coatings,composites">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2021</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>Highly efficient polyvinyl alcohol/montmorillonite flame retardant nanocoating for corrugated cardboard</papertitle>
+              <br>
+              Williams BL, Ding H, <strong>Hou Z</strong>, Paul PO, Lewis FA, Smith AT, Sun L. Highly efficient polyvinyl alcohol/montmorillonite flame retardant nanocoating for corrugated cardboard. Advanced Composites and Hybrid Materials. 2021; 4: 662-9.
+              <br><span style="color:#8a581d">2021</span>
+            </td>
+          </tr>
+          <tr data-tags="coatings,composites">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2021</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>One-step coassembled nanocoatings on paper for potential packaging applications</papertitle>
+              <br>
+              Chavez SE, Ding H, Nam S, <strong>Hou Z</strong>, Zhang D, Sun L. One-step coassembled nanocoatings on paper for potential packaging applications. ES Materials &amp; Manufacturing. 2021; 13; 15: 72-7.
+              <br><span style="color:#8a581d">2021</span>
+            </td>
+          </tr>
+          <tr data-tags="other">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2021</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>Smart Laser‐Writable Micropatterns with Multiscale Photo/Moisture Reconstructible Structure</papertitle>
+              <br>
+              Zeng S, Liu Y, Li S, Shen K, <strong>Hou Z</strong>, Chooi AP, Smith AT, Chen Z, Sun L. Smart Laser‐Writable Micropatterns with Multiscale Photo/Moisture Reconstructible Structure. Advanced Functional Materials. 2021; 31(10): 2009481.
+              <br><span style="color:#8a581d">2021</span>
+            </td>
+          </tr>
+          <tr data-tags="other">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2021</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>Tailoring multistimuli responsive micropatterns activated by various mechanical modes</papertitle>
+              <br>
+              Zeng S, Shen K, Li S, Li R, <strong>Hou Z</strong>, Zhang X, Tait WR, Kajiwara T, Takahara A, Smith AT, Jones MD. Tailoring multistimuli responsive micropatterns activated by various mechanical modes. Advanced Functional Materials. 2021; 31(18): 2100612.
+              <br><span style="color:#8a581d">2021</span>
+            </td>
+          </tr>
+          <tr data-tags="coatings,composites">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2021</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>An environmentally-friendly sandwich-like structured nanocoating system for wash durable, flame retardant, and hydrophobic cotton fabrics</papertitle>
+              <br>
+              Zhang D, Williams BL, Liu J, <strong>Hou Z</strong>, Smith AT, Nam S, Nasir Z, Patel H, Partyka A, Becher EM, Lofink BJ. An environmentally-friendly sandwich-like structured nanocoating system for wash durable, flame retardant, and hydrophobic cotton fabrics. Cellulose. 2021; 28: 10277-89.
+              <br><span style="color:#8a581d">2021</span>
+            </td>
+          </tr>
+          <tr data-tags="coatings,composites">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2021</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>Reviving the “Schottky” barrier for flexible polymer dielectrics with a superior 2D nanoassembly coating</papertitle>
+              <br>
+              Zhang B, Liu J, Ren M, Wu C, Moran TJ, Zeng S, Chavez SE, <strong>Hou Z</strong>, Li Z, LaChance AM, Jow TR. Reviving the “Schottky” barrier for flexible polymer dielectrics with a superior 2D nanoassembly coating. Advanced Materials. 2021; 33(34): 2101374.
+              <br><span style="color:#8a581d">2021</span>
+            </td>
+          </tr>
+          <tr data-tags="sensors">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2020</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>Multi-stimuli responsive chromism with tailorable mechanochromic sensitivity for versatile interactive sensing under ambient conditions</papertitle>
+              <br>
+              Zeng S, Sun H, Park C, Zhang M, Zhu M, Yan M, Chov N, Li E, Smith AT, Xu G, Li S, <strong>Hou Z</strong>, Li Y, Wang B, Zhang D, Sun L. Multi-stimuli responsive chromism with tailorable mechanochromic sensitivity for versatile interactive sensing under ambient conditions. Materials Horizons. 2020; 7(1): 164-72.
+              <br><span style="color:#8a581d">2020</span>
+            </td>
+          </tr>
+          <tr data-tags="coatings,composites">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2019</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>Nanofluidic energy conversion and molecular separation through highly stable clay-based membranes</papertitle>
+              <br>
+              Zhou Y, Ding H, Smith AT, Jia X, Chen S, Liu L, Chavez SE, <strong>Hou Z</strong>, Liu J, Cheng H, Liu Q. Nanofluidic energy conversion and molecular separation through highly stable clay-based membranes. Journal of Materials Chemistry A. 2019; 11; 7(23): 14089-96.
+              <br><span style="color:#8a581d">2019</span>
+            </td>
+          </tr>
+          <tr data-tags="other">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2018</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>Photocatalytic NH3 versus H2 evolution over g-C3N4/CsxWO3: O2 and methanol tipping the scale</papertitle>
+              <br>
+              Shi A, Li H, Yin S, <strong>Hou Z</strong>, Rong J, Zhang J, Wang Y. Photocatalytic NH3 versus H2 evolution over g-C3N4/CsxWO3: O2 and methanol tipping the scale. Applied Catalysis B: Environmental. 2018; 5; 235: 197-206.
+              <br><span style="color:#8a581d">2018</span>
+            </td>
+          </tr>
+          <tr data-tags="composites">
+            <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+              <div class="one" style="display:flex;align-items:center;justify-content:center;min-height:100px;background:#f7f4ee;border-radius:8px"><span style="font-size:30px;font-weight:600;color:#ad7020">2018</span></div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <papertitle>Intensely phosphorescent block copolymer micelles containing gold (I) complexes</papertitle>
+              <br>
+              Guo P, He Q, Wang C, <strong>Hou Z</strong>, Yu B, Bu W. Intensely phosphorescent block copolymer micelles containing gold (I) complexes. Soft Matter. 2018; 14(18): 3521-7.
+              <br><span style="color:#8a581d">2018</span>
+            </td>
+          </tr>
+	        </tbody></table>
+	        <script>
+	          (function() {
+	            var rows = document.querySelectorAll('.publications-table tr[data-tags]');
+
+	            rows.forEach(function(row, index) {
+	              var title = row.querySelector('papertitle');
+	              if (!title) return;
+
+	              var titleContainer = title.closest('a') || title;
+	              var firstBreak = titleContainer.nextElementSibling;
+	              if (!firstBreak || firstBreak.tagName !== 'BR') return;
+
+	              var lastBreak = firstBreak.nextElementSibling;
+	              while (lastBreak && lastBreak.tagName !== 'BR') {
+	                lastBreak = lastBreak.nextElementSibling;
+	              }
+	              if (!lastBreak) return;
+
+	              var authorNodes = [];
+	              var node = firstBreak.nextSibling;
+	              while (node && node !== lastBreak) {
+	                authorNodes.push(node);
+	                node = node.nextSibling;
+	              }
+
+	              var shell = document.createElement('div');
+	              shell.className = 'publication-authors-shell';
+	              var authors = document.createElement('div');
+	              authors.className = 'publication-authors';
+	              authors.id = 'publication-authors-' + index;
+	              authorNodes.forEach(function(authorNode) {
+	                authors.appendChild(authorNode);
+	              });
+
+	              var toggle = document.createElement('button');
+	              toggle.type = 'button';
+	              toggle.className = 'publication-authors-toggle';
+	              toggle.textContent = '▶';
+	              toggle.setAttribute('aria-controls', authors.id);
+	              toggle.setAttribute('aria-expanded', 'false');
+	              toggle.setAttribute('aria-label', 'Expand author list');
+	              toggle.title = 'Expand author list';
+
+	              shell.appendChild(authors);
+	              shell.appendChild(toggle);
+	              firstBreak.parentNode.insertBefore(shell, firstBreak);
+	              firstBreak.remove();
+	              lastBreak.remove();
+
+	              toggle.addEventListener('click', function() {
+	                var expanded = shell.classList.toggle('expanded');
+	                toggle.textContent = expanded ? '▼' : '▶';
+	                toggle.setAttribute('aria-expanded', String(expanded));
+	                toggle.setAttribute('aria-label', expanded ? 'Collapse author list' : 'Expand author list');
+	                toggle.title = expanded ? 'Collapse author list' : 'Expand author list';
+	              });
+	            });
+
+	            function updateAuthorToggles() {
+	              document.querySelectorAll('.publication-authors-shell').forEach(function(shell) {
+	                var authors = shell.querySelector('.publication-authors');
+	                var toggle = shell.querySelector('.publication-authors-toggle');
+	                var wasExpanded = shell.classList.contains('expanded');
+	                if (wasExpanded) shell.classList.remove('expanded');
+	                var hasOverflow = authors.scrollHeight > authors.clientHeight + 1;
+	                if (wasExpanded) shell.classList.add('expanded');
+	                toggle.hidden = !hasOverflow;
+	              });
+	            }
+
+	            updateAuthorToggles();
+            var resizeFrame;
+	            window.addEventListener('resize', function() {
+	              cancelAnimationFrame(resizeFrame);
+	              resizeFrame = requestAnimationFrame(updateAuthorToggles);
+	            }, { passive: true });
+	          })();
+	        </script>
+
+	        <table id="experience" class="page-section" width="100%" align="center" border="0" cellpadding="10"><tbody>
+          <br>
+              <heading>Experience</heading>
+          <br>
+          <tr><td style="padding:16px;width:20%;vertical-align:middle"><strong>2023–Present</strong></td><td style="padding:16px"><strong>World Centric</strong><br>Research Scientist<br>Developing bio-based, plastic-free packaging and water-resistant barrier coatings.</td></tr>
+          <tr><td style="padding:16px;width:20%;vertical-align:middle"><strong>2018–2023</strong></td><td style="padding:16px"><strong>University of Connecticut</strong><br>Ph.D. in Polymer Science<br>Research on functional polymers, nanocomposites, hydrogels, and coatings. Advisors: Dr. Luyi Sun and Dr. Montgomery T. Shaw.</td></tr>
+          <tr><td style="padding:16px;width:20%;vertical-align:middle"><strong>2014–2018</strong></td><td style="padding:16px"><strong>Lanzhou University</strong><br>B.S. in Chemistry with Honor.</td></tr>
+        </tbody></table>
+
+        <table id="projects" class="page-section" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <br>
+              <heading>Projects</heading>
+              <br>
+              <p>Research areas and projects from my academic and industrial work.</p>
+              <td style="padding:0px;width:100%;vertical-align:middle">
+                <div id="tagcloud-container">
+                    <p style="text-align:center; color:#999; padding-top: 180px;">Loading projects...</p>
+                </div>
+              </td>
+            </tr>
+        </tbody></table>
+
+        <script>
+            (function() {
+                const container = document.getElementById('tagcloud-container');
+                // Custom project list
+                const myProjects = [
+                    { name: "Sustainable Packaging", html_url: "#publications", stargazers_count: 0 },
+                    { name: "Barrier Coatings", html_url: "#publications", stargazers_count: 0 },
+                    { name: "Nanocomposite Films", html_url: "#publications", stargazers_count: 0 },
+                    { name: "Conductive Hydrogels", html_url: "#publications", stargazers_count: 0 },
+                    { name: "Soft Electronics", html_url: "#publications", stargazers_count: 0 },
+                    { name: "Responsive Sensors", html_url: "#publications", stargazers_count: 0 },
+                    { name: "Photodetectors", html_url: "#publications", stargazers_count: 0 },
+                    { name: "Thermoelectric Materials", html_url: "#publications", stargazers_count: 0 }
+                ];
+
+                function initTagCloud(projects) {
+                    container.innerHTML = '';
+                    const tags = [];
+                    // Base radius for calculations (height-based to keep it fitting)
+                    const r = Math.min(container.offsetWidth, container.offsetHeight) / 2 * 0.8;
+                    // X-stretch factor for ellipsoid shape
+                    const stretchX = 1.5;
+                    
+                    projects.forEach(p => {
+                        const el = document.createElement('a');
+                        el.href = p.html_url;
+                        el.target = '_blank';
+                        el.className = 'tagcloud-item';
+                        // Show name and stars
+                        el.textContent = p.name;
+                        el.style.color = '#444';
+                        
+                        container.appendChild(el);
+                        tags.push({ el: el, x: 0, y: 0, z: 0 });
+                    });
+
+                    let angleX = 0.001;
+                    let angleY = 0.001;
+                    let isHovering = false;
+                    const cx = container.offsetWidth / 2;
+                    const cy = container.offsetHeight / 2;
+
+                    // Initial positions - Golden Spiral distribution on sphere
+                    const len = tags.length;
+                    for(let i=0; i<len; i++) {
+                        const phi = Math.acos(-1 + (2 * i + 1) / len);
+                        const theta = Math.sqrt(len * Math.PI) * phi;
+                        tags[i].x = r * Math.cos(theta) * Math.sin(phi);
+                        tags[i].y = r * Math.sin(theta) * Math.sin(phi);
+                        tags[i].z = r * Math.cos(phi);
+                    }
+
+                    let animationId = null;
+                    let isVisible = true;
+
+                    function rotate() {
+                        animationId = null;
+                        if (!isVisible) return;
+                        if (!isHovering) {
+                            const cosX = Math.cos(angleX);
+                            const sinX = Math.sin(angleX);
+                            const cosY = Math.cos(angleY);
+                            const sinY = Math.sin(angleY);
+
+                            tags.forEach(tag => {
+                                // Rotate around X-axis
+                                let y = tag.y * cosX - tag.z * sinX;
+                                let z = tag.z * cosX + tag.y * sinX;
+                                tag.y = y;
+                                tag.z = z;
+
+                                // Rotate around Y-axis
+                                let x = tag.x * cosY - tag.z * sinY;
+                                z = tag.z * cosY + tag.x * sinY;
+                                tag.x = x;
+                                tag.z = z;
+                            });
+                        }
+
+                        tags.forEach(tag => {
+                            const perspective = 2 * r;
+                            const scale = perspective / (perspective - tag.z);
+                            const alpha = (tag.z + r) / (2 * r);
+                            
+                            // Apply stretchX here to create ellipsoid shape visually
+                            tag.el.style.left = (cx + tag.x * stretchX) - tag.el.offsetWidth / 2 + 'px';
+                            tag.el.style.top = (cy + tag.y) - tag.el.offsetHeight / 2 + 'px';
+                            tag.el.style.transform = `scale(${scale})`;
+                            tag.el.style.opacity = Math.max(0.2, alpha);
+                            tag.el.style.zIndex = Math.round(scale * 100);
+                        });
+                        animationId = requestAnimationFrame(rotate);
+                    }
+
+                    function setVisible(visible) {
+                        isVisible = visible;
+                        if (visible && animationId === null) {
+                            animationId = requestAnimationFrame(rotate);
+                        }
+                    }
+                    
+                    container.addEventListener('mouseenter', () => {
+                        isHovering = true;
+                    });
+                    
+                    container.addEventListener('mouseleave', () => {
+                        isHovering = false;
+                    });
+
+                    angleX = 0.002;
+                    angleY = 0.002;
+                    if ('IntersectionObserver' in window) {
+                        const observer = new IntersectionObserver(entries => {
+                            setVisible(entries[0].isIntersecting);
+                        }, { rootMargin: '120px' });
+                        observer.observe(container);
+                    }
+                    setVisible(true);
+                }
+
+                function loadProjects() {
+                    initTagCloud(myProjects);
+                }
+
+                loadProjects();
+            })();
+        </script>
+
+        <table id="service" class="page-section" style="width:90%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <br>
+            <heading>Service and Teaching</heading>
+            <br><br>
+          <td style="padding:0px;width:100%;vertical-align:middle">
+            <p>
+              <li>President, Society of Plastics Engineers (SPE), UConn Chapter (2021–2022)</li>
+              <li>Laboratory Manager, Sun Lab: mentored students and coordinated research activities (2020 onward, as stated in CV)</li>
+            </p>
+          </td>
+        </tr>
+        </tbody></table>
+
+        <table id="awards" class="page-section" style="width:90%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+                <br>
+                <heading>Awards and Honors</heading>
+                <br>
+                <br>
+              <td style="padding:0px;width:100%;vertical-align:middle">
+                <p>
+                  <li>B.S. in Chemistry with Honor, Lanzhou University (2018)</li>
+                </p>
+				<p>
+                  <li>Additional awards and honors: to be added when verified</li>
+                </p>
+                <p>
+                  <li></li>
+                </p>
+              </td>
+            </tr>
+        </tbody></table>
+
+      </td>
+    </tr>
+  </table>
+
+  <section class="mountain-footer" aria-label="Footer landscape">
+    <div class="mountain-stage">
+      <picture>
+        <source type="image/webp" srcset="images/experience/background-960.webp 960w, images/experience/background-1440.webp 1440w, images/experience/background-1920.webp 1920w" sizes="100vw">
+        <img class="mountain-img" src="images/experience/background.jpeg" alt="Snowy mountain landscape" loading="lazy" decoding="async" fetchpriority="low"
+             onerror="this.style.display='none'; this.closest('picture').nextElementSibling.style.display='block';">
+      </picture>
+      <div class="mountain-fallback" style="display:none;"></div>
+      <div class="mountain-content">
+        <h2>Keep Exploring</h2>
+        <p class="mountain-sub">Do what matters, even when it's hard.</p>
+        <a href="mailto:zaili.hou@gmail.com" class="mountain-cta">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+          <span>Get in Touch</span>
+        </a>
+        <p class="mountain-footnote">
+          <span>Zaili Hou, Ph.D. | Research Scientist</span>
+          <span class="mountain-updated">Last updated: <!-- LAST_UPDATED_START -->October 20, 2026<!-- LAST_UPDATED_END -->.</span>
+          <span class="mountain-template">
+            Polymer science · Functional materials · Sustainable packaging
+          </span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" onclick="scrollToTop()" title="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"/>
+    </svg>
+  </button>
+
+  <div id="toast" class="toast-message">✅复制完成</div>
+
+  <script>
+    // Back to Top
+    (function() {
+      var btn = document.getElementById('backToTop');
+      var sectionNav = document.querySelector('.section-drip-nav');
+      var footer = document.querySelector('.mountain-footer');
+
+      function updateSectionNav() {
+        if (!sectionNav || !footer) return;
+        var footerTop = footer.getBoundingClientRect().top;
+        var navBottom = sectionNav.getBoundingClientRect().bottom;
+        sectionNav.classList.toggle('is-footer-visible', footerTop < navBottom + 28);
+      }
+
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > 300) {
+          btn.classList.add('visible');
+        } else {
+          btn.classList.remove('visible');
+        }
+        updateSectionNav();
+      });
+      window.addEventListener('resize', updateSectionNav);
+      updateSectionNav();
+    })();
+
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
