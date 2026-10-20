@@ -114,7 +114,7 @@ a.a1:hover { color:rgb(95, 23, 110);
   display: inline-block;
   max-width: 230px;
   color: #9ca3af;
-  font-size: 12px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 1;
   white-space: nowrap;
@@ -146,7 +146,7 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 html {
@@ -244,12 +244,12 @@ html {
 
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 heading {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 28px;
   /*color: #313164;*/
   text-decoration: underline;
   text-decoration-style: solid;
@@ -341,7 +341,7 @@ heading {
   border-radius: 2px;
   background: linear-gradient(135deg, rgba(251, 165, 36, 0.1), rgba(243, 208, 8, 0.08));
   color: #111;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 400;
   line-height: 1.35;
   letter-spacing: 0.01em;
@@ -401,7 +401,7 @@ heading {
 
 heading2 {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 28px;
   /*color: #313164;*/
   -webkit-text-decoration-color: #ad7020;
   text-decoration-color: #fba524; /* #ac715b; */
@@ -409,7 +409,7 @@ heading2 {
 
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700
 }
 
@@ -451,7 +451,7 @@ papertitle {
 
 name {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 28px;
+  font-size: 38px;
 }
 
 abs {
